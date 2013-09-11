@@ -102,6 +102,19 @@ def choice1():
         
 def choice2():
     
+    a = float(raw_input("Enter A: ")) #Get input from user on different varibles
+
+    b = float(raw_input("Enter B: "))
+
+    c = float(raw_input("Enter C: "))
+    
+    val = float(raw_input("Enter x value to approximate: "))
+    
+    init = float(raw_input("Enter inital conditions (C₁): "))
+    
+    cons = raw_input("Constant? (Y/N): ") #Yes: there is a constant (Will querie later) No: There is no ccnstant
+    
+    
 
 
 main()
